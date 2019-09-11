@@ -24,38 +24,14 @@
 //  Copyright © 2019 win. All rights reserved.
 //
 
-var a:String
-var b:String,c:String
-print("enter username:\n")
-a=readLine()!
-if(a=="admin"){
-    print("enter password:\n")
-    b=readLine()!
-    if(b=="88888888"){
-        print("welcome\n")
-        print("do you want to hold on?\n")
-        c=readLine()!
-        if(c=="yes"){
-            print("it's so great,yu will be warm!")
-        }
-        else{
-            while(c=="no"){
-                print("you need to think twice\n")
-                c=readLine()!
-                if(c=="yes"){
-                    print("yu love u")
-                }
-                
-            }
-        }
-    }
-    else{
-        print("wrong password\n")
-    }
+var a:Int=1
+var b:Int=0
+while a<=100 {
+    b+=a
+    a+=1
 }
-else{
-    print("username doesnt exist\n")
-}
+print(b)
+
 
 
 
