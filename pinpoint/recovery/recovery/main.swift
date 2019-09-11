@@ -21,5 +21,8 @@ while index != "end" {
     }
 }
 print("最大值为：\( max )")
+for i in 1...10000{
+    print("恭喜：\(i)")
+}
 
 
