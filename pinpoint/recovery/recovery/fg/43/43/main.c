@@ -15,5 +15,6 @@ int main(int argc, const char * argv[]) {
     p=&a;
     printf("%d\n",p);
     printf("%x\n",a);
+    printf("ds");
     return 0;
 }
